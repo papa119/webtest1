@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 10px;
+    margin: 10px 20px 5px 20px;
+    text-align:center;
+}
+
+div{
+	border:3px solid;
+    border-color:coral;
+	border-radius:25px;
+    /*width:200px;*/
+    float: left;
+    width: 20%;
+	margin: 0 auto;
+    margin-left:20px;
+    padding: 20px 20px;
+	}
+
+img{
+	border:5px;
+    border-radius:25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 200px;
+   
+  
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Gallery</h1>
+
+<div>
+    <img src="https://www.freeart.com/gallery/d/durer/durer22a.jpg" >
+    <p>1471. Albrecht Dürer. <br>Germany MovementNorthern Renaissance.</p>
+</div>
+
+<div>
+    <img src="https://www.freeart.com/gallery/a/aivazovsky/tyranov1a.jpg" >
+    <p>1817. Ivan Aivazovsky. <br>MovementRomanticism, New York, NY, USA.</p>
+</div>
+
+<div>
+    <img src="https://www.freeart.com/gallery/s/serusier/serusier_photo1.jpg" >
+    <p>1864. Paul Sérusier. <br>France  MovementLes Nabis.</p>
+</div>
+
+
+
+
+</body>
+</html>
